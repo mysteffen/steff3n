@@ -10,10 +10,17 @@
     <title>Steffen</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="node_modules/bootstrap/less/bootstrap.less" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom LESS -->
     <link href="src/less/all.css" rel="stylesheet">
+
+    <!-- search // trigger -->
+    <link rel="stylesheet" href="src/css/style.css"> 
+    <script src="src/js/modernizr.js"></script>
+
+    <link rel="stylesheet" href="src/css/font-awesome.min.css">
+    
     
 
 </head>
@@ -26,11 +33,13 @@
 
 
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
 
+
+<script src="src/js/jquery-2.1.4.js"></script>
+<script src="src/js/main.js"></script> <!-- Resource jQuery -->
 <!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 
 </body>
 
