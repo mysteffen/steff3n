@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="first-block">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="socials">
                             <ul>
                                 <li class="fb">
@@ -24,12 +24,12 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="logo-wrapper">
                             <a href="#"><img src="src/img/logo2.png" /></a>
                         </div>
                     </div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 col-xs-12"></div>
                 </div>
                 <div class="two-block">
                     <div class="copyright">
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                            <div class="information">
+                        <div class="information">
                             <ul>
                                 <li>
                                     <a href="#">AGB</a>
