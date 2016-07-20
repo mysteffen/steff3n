@@ -89,10 +89,10 @@ header::before {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.cd-logo img {
-  display: block;
-  max-width: 30%;
-}
+/*.cd-logo img {*/
+  /*display: block;*/
+  /*max-width: 50%;*/
+/*}*/
 @media only screen and (min-width: 1024px) {
   .cd-logo {
     position: absolute;
@@ -100,7 +100,7 @@ header::before {
     margin-left: 5%;
   }
   .cd-logo img {
-    margin: 15px 0;
+    margin: 0;
   }
 }
 
@@ -510,10 +510,6 @@ header::before {
   height: auto;
 }
 
-.no-js .cd-logo img {
-
-
-}
 
 .no-js .cd-main-nav {
   position: static;
