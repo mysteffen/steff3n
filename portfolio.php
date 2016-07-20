@@ -16,7 +16,6 @@
     <link href="src/less/all.css" rel="stylesheet">
 
     <link rel="stylesheet" href="src/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="src/css/style.css">
     <script src="src/js/modernizr.js"></script>
 
@@ -29,7 +28,9 @@
 <?php include ("header.php"); ?>
 
 <main class="cd-main-content">
-   fsfssfsfs
+    <div class="headline-wrapper">
+        <span class="headline">Portfolio</span>
+    </div>
 </main>
 
 <?php include ("footer.php"); ?>
