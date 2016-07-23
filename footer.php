@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="first-block">
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-4 col-xs-6">
                         <div class="socials">
                             <ul>
                                 <li class="fb">
@@ -24,12 +24,22 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-xs-12">
+                    <div class="col-sm-4 col-xs-6">
                         <div class="logo-wrapper">
-                            <a href="#"><img src="src/img/logo2.png" /></a>
+                            <a href="#"><img src="src/img/logo.png" /></a>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-xs-12"></div>
+                    <div class="col-sm-4 hidden-xs">
+                        <div class="counter">
+                            <span>Views:</span>
+                            <?php
+
+                            include("counter.php");
+                            echo $zahl;
+
+                            ?>
+                        </div>
+                    </div>
                 </div>
                 <div class="two-block">
                     <div class="copyright">

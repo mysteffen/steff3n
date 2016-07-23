@@ -1,45 +1,64 @@
 //blog
-section {
-  .post {
-    background: #fff;
-    height: 350px;
-    .post-tag {
-      display: block;
-      font-size: 10px;
-      color: #999999;
-    }
-    .post-date {
-      font-size: 12px;
-      color: #999999;
-    }
-    .post-title {
-      display: block;
-      color: #333;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 18px;
-      padding: 10px 0 0 0;
-      text-decoration: none;
-      &:hover {
-        opacity: 0.6;
+#posts {
+  &.container {
+    padding: 0;
+    .post {
+      background: #fff;
+      height: auto;
+      margin-bottom: 30px;
+      .caption {
+        padding: 20px 40px 20px 10px;
+        &.caption--variant-two {
+          padding: 20px 40px 20px 20px;
+        }
+        .post-tag {
+          display: block;
+          font-size: 12px;
+          color: #333;
+          padding-bottom: 20px;
+        }
+        .tags {
+          .fa {
+            color: #55acee;
+            font-size: 12px;
+            float: left;
+            margin: 2px 3px 0 0;
+          }
+          .post-date {
+            font-size: 12px;
+            color: #999999;
+            font-weight: 700;
+          }
+        }
+        .post-title {
+          display: block;
+          font-weight: 700;
+          color: #333;
+          text-transform: uppercase;
+          font-size: 18px;
+          padding: 10px 0 0 0;
+          text-decoration: none;
+          &:hover {
+            opacity: 0.6;
+          }
+        }
+        .post-description {
+          padding: 10px 0;
+          line-height: 1.8;
+          font-size: 14px;
+          color: #333333;
+        }
+        .post-thumb {
+          height: 60px;
+          width: 60px;
+          overflow: hidden;
+          display: inline-block;
+          float: left;
+          margin-right: 16px;
+        }
       }
-    }
-    .post-description {
-      padding: 20px 0;
-      line-height: 1.5;
-      font-size: 14px;
-    }
-    .post-thumb {
-      height: 60px;
-      width: 60px;
-      overflow: hidden;
-      display: inline-block;
-      float: left;
-      margin-right: 16px;
     }
   }
 }
 
-#posts .post .caption {
-  padding: 20px 40px 20px 10px;
-}
+

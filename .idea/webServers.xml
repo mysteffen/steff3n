@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1e8677fb-8e7a-4426-a8c7-b0b4c741b672" name="mysteffen" url="http://my-billi.de">
+        <fileTransfer host="my-billi.de" port="21" rootFolder="/dev2" password="dfd9dfdedfcfdfccdfccdfcfdfc4df9bdf99df99df9d" username="my-billi.de">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

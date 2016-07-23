@@ -33,25 +33,29 @@
     </div>
     <div id="posts" class="container">
 
-        <section class="col-md-8">
+        <section class="col-md-8 col-xs-12 section-container">
             <div class="post">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xs-6">
                         <img src="img/photos/DeathtoStock_EnergyandSerenity31.jpg" class="img-responsive">
                     </div>
-                    <div class="col-md-6 caption">
+                    <div class="col-md-6 col-xs-6 caption">
                         <span class="post-date">Dezember 15, 2016</span>
                         <a href="#" class="post-title">Don't look at me</a>
-                        <span class="post-tag">#Surfing // #Mavericks</span>
                         <p class="post-description description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis <a href="#">parturient montes</a>, nascetur ridiculus mus. Aenean commodo ligula eget dolor.</p>
+                        <div class="tags">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="post-tag">#Surfing // #Mavericks</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Zum Artikel</button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="col-md-4 wow fadeIn">
+        <section class="col-md-4 col-xs-12 wow fadeIn">
             <div class="post">
-                <div class="caption">
+                <div class="caption caption--variant-two">
 
                     <div class="post-thumb">
                         <img src="img/photos/DeathtoStock_EnergyandSerenity31.jpg" class="img-responsive">
@@ -59,15 +63,18 @@
 
                     <span class="post-date">13 June 2015</span>
                     <a href="post-image.html" class="post-title">Leave it alone</a>
-                    <span class="post-tag">#Summer // #Beach</span>
                     <p class="post-description description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                         Cum sociis natoque penatibus et magnis dis parturient montes magnis dis parturient montes, nascetur ridiculus mus. Aenean commodo <a href="#">ligula eget dolor</a>.</p>
-
+                    <div class="tags">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="post-tag">#Summer // #Beach</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Zum Artikel</button>
                 </div>
             </div>
         </section>
 
-        <div class="col-md-12">
+        <div class="col-xs-12">
             <div class="text-center">
                 <a href="#" class="btn btn-ada-light load-more">Older posts</a>
             </div>

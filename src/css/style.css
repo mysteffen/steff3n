@@ -18,8 +18,6 @@ body {
   background-color: #fafafa;
 }
 
-
-
 /* -------------------------------- 
 
 Main Components 
@@ -89,10 +87,6 @@ header::before {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/*.cd-logo img {*/
-  /*display: block;*/
-  /*max-width: 50%;*/
-/*}*/
 @media only screen and (min-width: 1024px) {
   .cd-logo {
     position: absolute;
